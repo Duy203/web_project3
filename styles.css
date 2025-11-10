@@ -1,3 +1,9 @@
+body{
+    padding-left: 30%;
+    padding-right: 30%;
+    align-items: center;
+    width: auto;
+}
 .site {
       max-width: 1000px;
       margin: 28px auto;
@@ -91,3 +97,11 @@
     }
 
     .attraction a { color: #c0392b; font-weight: 600; text-decoration: none; }
+    aside.sidebar {
+      background: linear-gradient(180deg,#f7fbff,#e8f3ff);
+      padding: 16px;
+      border-radius: 8px;
+      max-width: 100%;
+    }
+    aside.sidebar h3 { margin-bottom: 8px; }
+    aside.sidebar ul { margin-left: 18px; margin-bottom: 10px; }
